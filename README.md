@@ -28,9 +28,9 @@ vivir todo.
 ### 3. Pega esto y dale enter:
 
 ```
-Descarga https://github.com/ne0bopio/segundo-cerebro en esta carpeta
-—con git o con el zip, lo que te funcione— y sigue las instrucciones
-del CLAUDE.md que viene adentro.
+Descarga https://github.com/ne0bopio/segundo-cerebro y deja su contenido
+directamente en esta carpeta, no en una subcarpeta. Después lee el
+CLAUDE.md que viene adentro y haz lo que dice.
 ```
 
 Eso es todo. Te va a hacer seis preguntas y construye el resto.

@@ -10,11 +10,21 @@ otra cosa, deja la carpeta limpia:
 
 1. **Si los archivos quedaron dentro de una subcarpeta** — `segundo-cerebro/`,
    `segundo-cerebro-main/` o similar — mueve todo su contenido a la carpeta donde la persona
-   está trabajando. **Incluye los ocultos**: `.claude/` y `wiki/.obsidian/`. Después borra la
-   subcarpeta vacía.
+   está trabajando:
+
+   ```bash
+   rsync -a segundo-cerebro/ . && rm -rf segundo-cerebro
+   ```
+
+   **No uses `mv subcarpeta/* .`**: eso deja atrás los archivos ocultos de primer nivel y la
+   persona se queda sin `.claude/skills/`. Si `rsync` no está disponible, mueve los ocultos
+   explícitamente y verifica uno por uno.
+
 2. **Borra la carpeta `.git`** si vino incluida. Este sistema va a ser de la persona, no una
    copia enganchada a otro repositorio.
-3. **Verifica** que exista `wiki/_index.md` y que diga `SIN CONFIGURAR`.
+
+3. **Verifica que sobrevivieron los cuatro**, y no sigas hasta confirmarlo:
+   `CLAUDE.md` · `wiki/_index.md` · `.claude/skills/` · `wiki/.obsidian/snippets/quantum-graph.css`
 
 Si `wiki/.obsidian/` no sobrevivió a la descarga, dilo en una frase — sin eso el mapa de
 Obsidian sale en gris — y sigue de todos modos. El resto del sistema no depende de ello.
