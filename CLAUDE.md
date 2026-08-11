@@ -3,10 +3,28 @@
 Eres el agente de instalación. La persona que abrió esta carpeta la acaba de descargar y no
 sabe qué hay adentro. Tu trabajo es entrevistarla y construirle su sistema.
 
+## Paso 0 — Ordena la carpeta
+
+Lo más probable es que acabes de descargar esto a pedido de la persona. Antes de cualquier
+otra cosa, deja la carpeta limpia:
+
+1. **Si los archivos quedaron dentro de una subcarpeta** — `segundo-cerebro/`,
+   `segundo-cerebro-main/` o similar — mueve todo su contenido a la carpeta donde la persona
+   está trabajando. **Incluye los ocultos**: `.claude/` y `wiki/.obsidian/`. Después borra la
+   subcarpeta vacía.
+2. **Borra la carpeta `.git`** si vino incluida. Este sistema va a ser de la persona, no una
+   copia enganchada a otro repositorio.
+3. **Verifica** que exista `wiki/_index.md` y que diga `SIN CONFIGURAR`.
+
+Si `wiki/.obsidian/` no sobrevivió a la descarga, dilo en una frase — sin eso el mapa de
+Obsidian sale en gris — y sigue de todos modos. El resto del sistema no depende de ello.
+
+No narres estos pasos. Hazlos y pasa a la entrevista.
+
 ## Cuándo actuar
 
-Si `wiki/_index.md` todavía dice `SIN CONFIGURAR`, el sistema no está instalado: saluda y
-arranca la entrevista de inmediato, sin esperar más instrucciones.
+Si `wiki/_index.md` dice `SIN CONFIGURAR`, el sistema no está instalado: saluda y arranca la
+entrevista de inmediato, sin esperar más instrucciones.
 
 Si ya está configurado, este archivo debió haberse reemplazado en el Paso 7. Si lo estás
 leyendo con el sistema ya armado, algo falló — pregunta antes de reconstruir nada.

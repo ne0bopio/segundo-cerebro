@@ -12,21 +12,25 @@ Son las mismas seis preguntas — lo que cambia es lo que construye.
 
 ## Instalación
 
+No tienes que descargar nada a mano. Se lo pides a Claude y él lo hace.
+
 ### 1. Instala Claude Code
 
 Descárgalo en **[claude.ai/download](https://claude.ai/download)** e inicia sesión.
 
 Es de pago. Mejor saberlo ahora que a los quince minutos.
 
-### 2. Descarga esta carpeta
+### 2. Crea una carpeta vacía y ábrela con Claude Code
 
-Botón verde **Code** → **Download ZIP**. Descomprime donde quieras — el Escritorio está
-bien — y ponle el nombre que prefieras.
+Donde quieras y con el nombre que quieras — *mi-sistema*, *mi-negocio*, tu nombre. Ahí va a
+vivir todo.
 
-### 3. Ábrela con Claude Code y escribe:
+### 3. Pega esto y dale enter:
 
 ```
-empezar
+Descarga https://github.com/ne0bopio/segundo-cerebro en esta carpeta
+—con git o con el zip, lo que te funcione— y sigue las instrucciones
+del CLAUDE.md que viene adentro.
 ```
 
 Eso es todo. Te va a hacer seis preguntas y construye el resto.
