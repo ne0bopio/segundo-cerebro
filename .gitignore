@@ -1,0 +1,7 @@
+.DS_Store
+*.swp
+
+# Estado local de Obsidian — la config compartida (appearance, graph, snippets) sí se sube
+wiki/.obsidian/workspace.json
+wiki/.obsidian/workspace-mobile.json
+wiki/.obsidian/cache
